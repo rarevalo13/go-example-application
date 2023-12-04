@@ -60,10 +60,10 @@ Once you’ve set up your developer account with Okta you’ll need to log in an
 
 If you don’t have any users currently in Okta, you’ll want to create a few, you can do so by following the guide from Okta on how to create new users [here](https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-add-users.htm). 
 
-The second application will be the directory sync Application which you can browser the application catalog by searching “bearer token” and you should see an application called SCIM 2.0 Test App (OAuth Bearer Token).  Once you’ve created that app, you can can follow along with our Okta specific guide that can be found [here](https://workos.com/docs/integrations/okta-scim). 
+The second application will be the directory sync Application which you can browse the application catalog by searching “bearer token” and you should see an application called SCIM 2.0 Test App (OAuth Bearer Token).  Once you’ve created that app, you can follow along with our Okta specific guide that can be found [here](https://workos.com/docs/integrations/okta-scim). 
 
 ---
 
 ### Running the local server
 
-Once you have set up the two applications and configured them per the guides, you can navigate to your terminal and run the local server by running `go run main.go` this will start a local server on port 8000. If you navigate to [localhost:8000](http://localhost:8000) you should see a sign on display with 3 options. clicking on the Okta option should bring you to the Okta login screen and you’d log in using any user that was created and assigned the application you created with this tutorial.
+Once you have set up the two applications and configured them per the guides, you can navigate to your terminal and run the local server by running `go run main.go` this will start a local server on port 8000. If you navigate to [localhost:8000](http://localhost:8000) you should see a sign on display with 3 options. Clicking on the Okta option should bring you to the Okta login screen and you’d log in using any user that was created and assigned the application you created with this tutorial.

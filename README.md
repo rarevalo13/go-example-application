@@ -34,7 +34,7 @@ An example Go Application demonstrating how to use the WorkOS Go SDK to authenti
  or
    ```
    #SSH
-   git clone git@github.com:rarevalo13/go-example-application.gitq
+   git clone git@github.com:rarevalo13/go-example-application.git
    ```
 
 1. Once you have cloned the repository navigate to the root directory 

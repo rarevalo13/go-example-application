@@ -46,7 +46,7 @@ An example Go Application demonstrating how to use the WorkOS Go SDK to authenti
 2. Obtain and make notes of the following values in your WorkOS account. 
     - WorkOS API Key
     - WorkOS Client ID
-    - Redirect URI <this should be set to https://localhost:8000/callback,  as well as in your WorkOS Redirects sections which can be found under the Developer heading in your dashboard on the left hand side.
+    - Redirect URI this should be set to https://localhost:8000/callback,  as well as in your WorkOS Redirects sections which can be found under the Developer heading in your dashboard on the left hand side.
     - WorkOS Connection ID
     - WorkOS Directory ID
 
